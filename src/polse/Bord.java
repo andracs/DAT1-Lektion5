@@ -2,7 +2,7 @@ package polse;
 
 public class Bord {
 
-    public String materiale = "";
+    private String materiale = "";
 
     private int antalBordBen = 0;
 
@@ -14,4 +14,11 @@ public class Bord {
         this.antalBordBen = antalBordBen;
     }
 
+    public String getMateriale() {
+        return materiale;
+    }
+
+    public void setMateriale(String materiale) {
+        this.materiale = materiale;
+    }
 }
