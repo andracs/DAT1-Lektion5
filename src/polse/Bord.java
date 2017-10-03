@@ -23,4 +23,11 @@ public class Bord {
         this.antalBordBen = antalBordBen;
     }
 
+    public String getMateriale() {
+        return materiale;
+    }
+
+    public void setMateriale(String materiale) {
+        this.materiale = materiale;
+    }
 }
